@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <style>
+      body {
+          margin: 0;            /* Reset default margin */
+      }
+      iframe {
+          display: block;       /* iframes are inline by default */
+          background: #000;
+          border: none;         /* Reset default border */
+          height: 100vh;        /* Viewport-relative units */
+          width: 100vw;
+      }    
+    </style>
+  </head>
+  <body>
+    <iframe src="https://www.energieleveranciers.nl/" seemless></iframe>
+  </body>
+
+  <script>
+    // You can also require other files to run in this process
+    require('./renderer.js')
+  </script>
+</html>
